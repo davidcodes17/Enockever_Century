@@ -1,0 +1,15 @@
+.newss{
+    padding-top: 60px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.new-bg{
+    cursor: pointer;
+    background:  #45B98C;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 40px;
+}

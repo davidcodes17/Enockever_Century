@@ -1,0 +1,74 @@
+.hero{
+    padding-top: 10px;
+    text-align: center;
+}
+.main-hero-text{
+    font-size: 3.5rem;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.sub-hero{
+    padding-top: 20px;
+    line-height: 30px;
+}
+.mr-input{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-input{
+    background: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    border-radius: 10px 0px 00px 10px;
+    /* border-radius: 10px; */
+}
+.get-started{
+    padding: 13px 15px 12px 15px;
+    border-radius: 0px 10px 10px 0px;
+    background: #45B98C;
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* transition: all 4s; */
+    cursor: pointer;
+}
+.input-email{
+    padding: 15px 10px;
+    width: 200px;
+    border: none;
+    /* background: #000; */
+    outline: none;
+}
+.get-started:hover .get-icon{
+    display: none;
+    transition: all .4s;
+}
+.get-started:hover .text-get{
+    display: none;
+    padding: 4px 2px;
+    transition: all .4s;
+    display: block;
+}
+.text-get{
+    transition: all .4s;
+    font-size: 1rem;
+    display: none;
+}
+@keyframes animate {
+    0%{
+        display: none;
+    }
+    100%{
+        display: block;
+        display: none;
+    }
+}

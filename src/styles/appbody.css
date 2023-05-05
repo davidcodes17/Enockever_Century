@@ -1,0 +1,58 @@
+.stores{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.apple-store{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 15px 0px;
+}
+.name-apps{
+    margin-top: 3px;
+    display: none;
+}
+.name-app{
+    display: none;
+}
+.app-icon{
+    font-size: 2rem;
+}
+.play-store{
+    padding: 15px 0px;
+    border-radius: 6px;
+    display: flex;
+    gap: 10px;
+    align-items: center;    
+    cursor: pointer;
+}
+.app-icons{
+    font-size: 1.5rem;
+}
+.play-store:hover{
+    background: #000;
+    padding: 4px 10px;
+}
+.play-store:hover .name-app{
+    display: block;
+    color: #fff;
+}
+.play-store:hover .app-icons{
+    color: #fff;
+}
+
+.apple-store:hover{
+    background: #000;
+    padding: 4px 10px;
+}
+.apple-store:hover .name-apps{
+    display: block;
+    color: #fff;
+}
+.apple-store:hover .app-icon{
+    color: #fff;
+}
